@@ -1,0 +1,9 @@
+@import "./reset.scss";
+@import "./responsiveMixin.scss";
+@import "./variables.scss";
+
+.main {
+  h1 {
+    font-size: var(--h1);
+  }
+}

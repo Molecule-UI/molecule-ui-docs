@@ -33,7 +33,14 @@ const IconsData = ({ IconsSet }) => {
         <h6>Availability</h6>
         <p>Molecule Icons are available as both SVG files and Components</p>
         <p>
-          Download SVGs <a href="https://github.com">SVG Source</a>{" "}
+          Download SVGs{" "}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/Rushil-Dhinoja/molecule-ui/tree/master/packages/molecule-ui-icons/svg"
+          >
+            SVG Source
+          </a>{" "}
         </p>
       </div>
     </div>
