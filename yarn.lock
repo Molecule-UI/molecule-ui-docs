@@ -1536,10 +1536,10 @@
   resolved "https://registry.yarnpkg.com/@mikaelkristiansson/domready/-/domready-1.0.10.tgz#f6d69866c0857664e70690d7a0bfedb72143adb5"
   integrity sha512-6cDuZeKSCSJ1KvfEQ25Y8OXUjqDJZ+HgUs6dhASWbAX8fxVraTfPsSeRe2bN+4QJDsgUaXaMWBYfRomCr04GGg==
 
-"@molecule-ui/icons@^0.0.4-alpha.0":
-  version "0.0.4-alpha.0"
-  resolved "https://registry.yarnpkg.com/@molecule-ui/icons/-/icons-0.0.4-alpha.0.tgz#a53a782636af262c4eeaeed3891c154e618cb904"
-  integrity sha512-noWp5MgyCy5dEYh0/A+qHOOF3UqfPusElqPqi+2ObEFMHQVQ8OJj+wszIxAC5gdr2cGra6l630Ku2bPfAWH+Xg==
+"@molecule-ui/icons@^0.0.4-alpha.1":
+  version "0.0.4-alpha.1"
+  resolved "https://registry.yarnpkg.com/@molecule-ui/icons/-/icons-0.0.4-alpha.1.tgz#2fb31f8b86264c4886931238bec49a9a92528071"
+  integrity sha512-rYJlndc2WH2RdG+/zf8eaL0or5vvZllcurtWEaoTGbJmhlSLkWzGJl81Mn6U2W3tSzDUtHkvBI8msyHvF3tyOg==
   dependencies:
     "@types/classnames" "^2.2.10"
     classnames "^2.2.6"

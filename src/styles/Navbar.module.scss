@@ -36,7 +36,6 @@
       border-bottom: 1px solid transparent;
 
       a {
-        color: var(--dark);
         text-decoration: none;
         transition: all 0.2s;
         padding-bottom: 1rem;
@@ -53,4 +52,9 @@
       }
     }
   }
+}
+
+.active {
+  border-bottom: 1px solid var(--red);
+  color: var(--red);
 }
