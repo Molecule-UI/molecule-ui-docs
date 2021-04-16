@@ -12,7 +12,7 @@ const NotFound = () => {
             <h3>ERROR</h3>
           </div>
           <div className={NotfoundStyles.message}>
-            <h1>That page doesn't exists</h1>
+            <h1>This page doesn't exists</h1>
             <p>
               <span>Sorry</span>, the page you were looking for could not be
               found{" "}
