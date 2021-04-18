@@ -19,6 +19,7 @@
   }
   @include respond(smallest) {
     padding: 5rem 1rem;
+    margin: 2rem auto;
   }
 
   div {

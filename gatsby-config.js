@@ -14,12 +14,14 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-transformer-remark",
     "gatsby-plugin-mdx",
+    "gatsby-plugin-react-helmet",
     // {
     //   resolve: "gatsby-plugin-page-creator",
     //   options: {
     //     path: path.join(__dirname, "src", "mdx"),
     //   },
     // },
+
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -37,8 +39,15 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "mdx",
-        path: path.join(__dirname, "src", "mdx"),
+        name: "styles",
+        path: path.join(__dirname, "src", "mdx", "styles"),
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "components",
+        path: path.join(__dirname, "src", "mdx", "components"),
       },
     },
   ],

@@ -39,6 +39,9 @@
         text-decoration: none;
         transition: all 0.2s;
         padding-bottom: 1rem;
+        @include respond(smallest) {
+          padding-bottom: 0.5rem;
+        }
 
         &:hover,
         &:active {

@@ -15,6 +15,11 @@ const NavbarItems = () => {
           Components
         </Link>
       </li>
+      <li>
+        <Link to="/styles" activeClassName={NavbarStyles.active}>
+          Styles
+        </Link>
+      </li>
     </ul>
   )
 }

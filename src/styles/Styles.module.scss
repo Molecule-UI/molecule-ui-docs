@@ -1,0 +1,62 @@
+@import "./reset.scss";
+@import "./responsiveMixin.scss";
+@import "./variables.scss";
+
+.container {
+  margin: 5rem auto 3rem auto;
+  width: 90%;
+  box-sizing: border-box;
+  max-width: 1500px;
+  box-shadow: 0 1.2rem 3.6rem rgba(0, 0, 0, 0.2);
+  background-color: var(--white);
+  border-radius: 10px;
+  min-height: 69vh;
+  display: flex;
+  flex-direction: row;
+
+  @include respond(smallest) {
+    width: 90%;
+    margin: 2rem auto;
+  }
+  & .sub-container {
+    flex-grow: 1;
+    padding: 2rem;
+    border-radius: 0 10px 10px 0;
+  }
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  height: 69vh;
+  border-radius: 10px 0 0px 10px;
+  max-height: 69vh;
+  overflow-y: auto;
+  padding-top: 1rem;
+  margin-left: 1rem;
+  .nav-bar-item {
+    a {
+      text-decoration: none;
+      font-size: 1.6rem;
+      padding: 0.5rem 1rem;
+      display: inline-block;
+      color: var(--dark);
+      transition: all 0.2s;
+      width: 100%;
+      &.active {
+        color: var(--red);
+        background: var(--red-opaque);
+        border-radius: 4px;
+        font-weight: 700;
+      }
+      &:hover {
+        color: var(--red);
+      }
+    }
+  }
+}
+
+.heading {
+  font-size: var(--h4);
+}

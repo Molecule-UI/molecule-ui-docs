@@ -8,6 +8,9 @@ module.exports.createPages = async ({ graphql, actions }) => {
       allMdx {
         nodes {
           slug
+          frontmatter{
+            route
+          }
         }
       }
     }
@@ -16,7 +19,7 @@ module.exports.createPages = async ({ graphql, actions }) => {
   res.data.allMdx.nodes.forEach(node => {
     createPage({
       component: mdxTemplate,
-      path: `/guideline/${node.slug}`,
+      path: `/${node.frontmatter.route}/${node.slug}`,
       context: {
         slug: node.slug,
       },
