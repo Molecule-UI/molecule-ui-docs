@@ -1,6 +1,6 @@
 import React from "react"
 import IconsStyle from "../../styles/Icons.module.scss"
-import * as IconsSet from "@molecule-ui/icons"
+import * as IconsSet from "@moleculeui/icons"
 import IconsData from "./IconsData"
 
 const Icons = () => {

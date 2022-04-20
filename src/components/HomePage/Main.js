@@ -6,7 +6,7 @@ import {
   FolderSolid,
   ReactLogo,
   CssSolid,
-} from "@molecule-ui/icons"
+} from "@moleculeui/icons"
 import { Link } from "gatsby"
 
 const Main = () => {

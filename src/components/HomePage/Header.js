@@ -7,7 +7,7 @@ import {
   Componet,
   HeartSolid,
   DashboardSolid,
-} from "@molecule-ui/icons"
+} from "@moleculeui/icons"
 import Card from "./Card"
 
 const Header = () => {

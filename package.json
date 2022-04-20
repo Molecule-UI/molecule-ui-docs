@@ -12,12 +12,15 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.16",
     "@mdx-js/react": "^1.6.16",
-    "@molecule-ui/icons": "^0.0.4-alpha.1",
+    "@moleculeui/icons": "^1.1.0-beta.0",
+    "@moleculeui/react": "^1.1.2-beta.3",
     "env-cmd": "^10.1.0",
     "gatsby": "^2.24.26",
     "gatsby-image": "^2.4.14",
@@ -37,6 +40,14 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@storybook/addon-actions": "^6.4.22",
+    "@storybook/addon-essentials": "^6.4.22",
+    "@storybook/addon-interactions": "^6.4.22",
+    "@storybook/addon-links": "^6.4.22",
+    "@storybook/react": "^6.4.22",
+    "@storybook/testing-library": "^0.0.10",
+    "babel-loader": "^8.2.5",
     "prettier": "2.0.5"
   },
   "bugs": {
