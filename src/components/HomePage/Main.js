@@ -55,7 +55,7 @@ const Main = () => {
             <FolderSolid className={MainStyles.svgs} fill={"#272932"} />
             <p>Molecule-Icons</p>
           </Link>
-          <Link to="/molecule-react">
+          <Link to="/components">
             <ReactLogo className={MainStyles.svgs} fill={"#272932"} />
             <p>Molecule-React</p>
           </Link>
